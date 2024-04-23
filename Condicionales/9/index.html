@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+ 
+</head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 3%;
+        }
+        h3{
+         padding-bottom: 2px;
+         font-size: 25px;
+         color: #7878bd;
+         text-align: center;
+        }
+        body{
+        background:  rgba(180, 180, 207);
+        }
+        
+        .form{
+        background-color: rgb(255, 255, 255);
+        margin: auto;
+        width: 90%;
+        max-width: 290px;
+        padding: 40px 40px 60px 40px;
+        border-radius: 8px;
+        }
+        .input {
+        border-radius: 5px;
+        background-color: #e9e9f7;
+        padding: 5px;
+       margin-bottom: 6px;
+        width: 100%;
+        color: #2f2f6d;
+        border: 1px solid #dadaf7;
+        max-width: 100px;
+    
+        }
+      
+      
+        p {
+        color: #9191ba;
+        font-size: 14px;
+        display: block;
+        padding-bottom: 0px;
+        padding-left: 20px;
+        }
+        .form_submit{
+        background-color: rgb(110, 110, 231);
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        color: aliceblue;
+        padding: 10px 17px;
+        }
+    </style>
+<body>
+ 
+     
+    <form method="post" action="datos.php" class="form">
+         <h3>Determinar el número de en medio</h3>
+         <center>
+            <p>Digite un número</p> <input type="number" name="n1" required class="input">
+            <p>Digite otro número</p> <input type="number" name="n2" required class="input">
+            <p>Digite otro número</p> <input type="number" name="n3" required class="input"> <br>
+           
+            <input type="submit" value="Vamos" class="form_submit">
+         </center>
+           
+     
+      
+    </form>
+</body>
+</html>

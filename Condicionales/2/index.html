@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botas</title>
+</head>
+<style>
+    *{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    }
+     body{
+        max-width: 1100px;
+        margin: 0 auto;
+     }
+     header{
+        display: flex;
+        align-items: center;
+        padding: 30px;
+        justify-content: center;
+     }
+     .container_tittle{
+        padding: 30px;
+        background-color: rgb(226, 232, 238);
+        margin-bottom: 50px;
+        color: rgb(24, 24, 24);
+     }
+     main{
+        display: flex;
+        gap: 24px;
+        margin-bottom: 80px;
+     }
+     .container_descripcion {
+        width: 600px; 
+    }
+    
+    .input {
+        border: none;
+        background-color: #f0f0f7;
+        padding: 4px 1px;
+        margin-left: 20px;
+        border-radius: 10px;
+        }
+        .boton{
+        background-color: black;
+        border: none;
+        cursor: pointer;
+        color: aliceblue;
+        padding: 6px 17px;
+        margin-top: 15px;
+        }
+        h3{
+            margin-bottom: 7px;
+        }
+        .container-products h3{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .card-list-products{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+       
+        }
+        .image img{
+            height: 380px;
+            width: 270px;
+        }
+    </style>
+<body>
+    <header>
+        <h1>Logo</h1> <br>  <br>
+    </header>
+    <div class="container_tittle">Zapatos: botas</div>
+   
+    <main>
+        <img src="botas5.jpg" width="600px" height="600px"> <br>
+        <div class="container_descripcion">
+            <form action="datos.php" method="post" class="form">
+                <h3>$152.000</h3>
+                <hr><br>
+                <label>Talla</label>
+                <select name="opciones" class="input">
+                    <option value="35">35</option>
+                    <option value="63">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                </select> <br> <br>
+                <label>Digite La referencia(dos digitos)</label> <br> <br>
+                <label>Referecia:</label> <input type="number" class="input" name="contra" required>
+                <br>
+                <input type="submit" class="boton">
+            </form>
+            <div>
+                <br> <hr> <br>
+                <h3>Descripción</h3>
+                <p>Altura del tacón: Mediano (3 cm-5 cm) <br>
+                    Tipo de cierre: Con cordones <br>
+                    Altura de la bota: Mitad de la pantorrilla <br>
+                    Nombre de la marca: Akexiya: </p> <br>
+                    <p> Botas de alta calidad para mujer, zapatos de punta redonda con cordones, botas geniales para primavera y otoño</p>
+            </div>
+        </div>
+    </main>
+   
+    <section class="container-products">
+        <h3>Productos relacionados</h3>
+        <hr> <br>
+        <div class="card-list-products">
+
+            <div class="card">
+                <div class="image">
+                    <img src="botas 2.webp" alt="1">
+                </div>
+                <p> <b>$79.000 </b>Botines de tacón alto con plataforma  </p>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                    <img src="botas 3.webp" alt="2">
+                </div>
+                <p> <b>$150.000 </b>Botas Punk de tacón grueso </p>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                    <img src="botas4.jpg" alt="3">
+                </div>
+                <p> <b>$256.000 </b>Botines de malla de cuero genuino</p>
+            </div>
+      
+         <div class="card">
+             <div class="image">
+                 <img src="botas_de_piel.webp" alt="4">
+             </div>
+                <p> <b>$120.000 </b>Botas de Piel sintética </p>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        Aixita 🐥
+    </footer>
+</body>
+</html>

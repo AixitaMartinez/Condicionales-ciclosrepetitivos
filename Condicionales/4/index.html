@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>camisas</title>
+</head>
+<style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-top: 50px;
+    }
+
+    .form {
+      width: 50%;
+      margin: 50px auto;
+      text-align: center;
+      border: 5px;
+      border-color: pink;
+    }
+
+    label {
+      display: block;
+      margin: 20px 0;
+      font-size: 26px;
+    }
+
+    input[type="number"] {
+      font-size: 21px;
+      padding: 8px;
+      border: none;
+      background-color: #333;
+      color: white;
+      border-radius: 20px;
+    }
+
+    input[type="submit"] {
+      font-size: 15px;
+      padding: 10px;
+      border: none;
+      margin-top: 8px;
+      background-color: #66c2ff;
+      color: white;
+      cursor: pointer;
+      border-radius: 20px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0066cc;
+      transform: scale(1.1);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    p {
+      text-align: center;
+      font-size: 24px;
+      margin-top: 50px;
+    }
+  </style>
+<body>
+    <form action="datos.php"  method="post" class="form">
+            <h1>COMPRA DE CAMISAS</h1>
+            <label>Digite el precio de la camisa</label> <input type="number" name="precio"><br>
+            <label>¿Cuántas camisas va a comprar?</label> <input type="number" name="cantidad"><br>
+        <input type="submit">
+    </form>
+</body>
+</html>

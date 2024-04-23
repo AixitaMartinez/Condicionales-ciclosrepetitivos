@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+    background-color: white;
+    border-bottom: 2px solid #ccc;
+    padding: 12px;
+  }
+  
+  .navb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /*Titulo */
+  .navb div {
+    font-size: 26px;
+    font-weight: bold;
+    color: #002657;
+    letter-spacing: 2px;
+    margin-right: 20px;
+    
+  }
+  
+  .navb div,
+  .navb_list {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navb_list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .list {
+    color: #002657;
+    font-size: 16px;
+    text-decoration: none;
+    border: 1px solid #002657;
+    border-radius: 20px;
+    padding: 8px 16px;
+    margin-right: 20px;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  .list:hover {
+    color: #fff;
+    background-color: #002657;
+    transform: scale(1.2); /* Aumenta el tamaño del background en un 20%*/
+    border-radius: 20px;
+    padding: 8px 16px;
+  }
+/*Contenidooo*/
+.contenido_left {
+    float: left;
+    width: 45%; /* El contenido_left ocupará el 50% del ancho del contenedor */
+    margin-top: 180px;
+    margin-left: 24px;
+  }
+  
+  .contenido_right {
+    float: right;
+    width: 50%; /* El contenido_right ocupará el 50% del ancho del contenedor */
+  }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 3%;
+        }
+        h3{
+         padding-bottom: 2px;
+         font-size: 25px;
+         color:  rgb(187, 79, 91);
+         text-align: center;
+         text-transform: bold;
+         font-size: 35px;
+        }
+        body{
+        background:  rgb(230, 71, 89);
+        }
+        
+        .form{
+        background-color: rgb(255, 255, 255);
+        margin: auto;
+        width: 90%;
+        max-width: 290px;
+        padding: 40px 40px 20px 40px;
+
+        }
+        .input {
+        border-radius: 5px;
+        background-color: #f7e9e9;
+        padding: 5px;
+       margin-bottom: 6px;
+        width: 100%;
+        color: #6d2f2f;
+        border: 1px solid #f7dada;
+        max-width: 100px;
+    
+        }
+      
+      
+        p {
+        color: #ba9191;
+        font-size: 14px;
+        display: block;
+        padding-bottom: 0px;
+        padding-left: 20px;
+        }
+        .form_submit{
+        background-color: rgb(225, 59, 59);
+        border: none;
+        border-radius:50px;
+        cursor: pointer;
+        color: aliceblue;
+        padding: 8px 17px;
+        margin-bottom: 10px;
+        }
+    </style>
+<body>
+    <form action="datos.php" method="post"class="form">
+        <h3>FRUTERÍA</h3>
+        <label>Venta de manzanas por kilos</label> <br>
+        <label> Digite Valor: </label> <input type="number" name="valor" class="input"> <br>
+        <label>Digite Num. de Kilos comprados</label> <input type="number" name="kilos" class="input"> <br>
+        <center>
+            <input type="submit" value="Calcular" class="form_submit">
+        </center>
+        <img src="manzanas.png" alt="manzanas" width="270px" height="200px">
+       
+    </form>
+</body>
+</html>

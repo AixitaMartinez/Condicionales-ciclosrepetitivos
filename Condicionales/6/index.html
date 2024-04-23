@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 3%;
+        }
+        h3{
+         padding-bottom: 2px;
+         font-size: 30px;
+         color: #7878bd;
+         text-align: center;
+        }
+        body{
+        background:  rgba(180, 180, 207);
+        }
+        
+        .form{
+        background-color: rgb(255, 255, 255);
+        margin: auto;
+        width: 90%;
+        max-width: 290px;
+        padding: 40px 40px 60px 40px;
+        border-radius: 8px;
+        }
+        .input {
+        border-radius: 5px;
+        background-color: #e9e9f7;
+        padding: 5px;
+        margin-left: 20px;
+        width: 100%;
+        color: #2f2f6d;
+        border: 1px solid #dadaf7;
+        max-width: 100px;
+        }
+        .input2 {
+        border-radius: 5px;
+        background-color: #e9e9f7;
+        padding: 5px;
+        width: 100%;
+        color: #68689a;
+        border: 1px solid #dadaf7;
+        max-width: 90px;
+        }
+        .input::placeholder {
+        color: #bcbcdf;
+        }
+
+        p {
+        color: #9191ba;
+        font-size: 14px;
+        display: block;
+        padding-bottom: 0px;
+        padding-left: 20px;
+        }
+        .form_submit{
+        background-color: rgb(110, 110, 231);
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        color: aliceblue;
+        padding: 10px 17px;
+        }
+    </style>
+<body>
+    <form action="datos.php" method="post" class="form">
+        <h3>¡Juego de preguntas!</h3>
+        <p>1. ¿Colón descrubrió America?</p>
+        <p>Sí: <input type="radio" name="r1" value="SI"></p>
+        <p>No: <input type="radio" name="r1" value="NO"></p>
+
+        <p>2. ¿La independencia de México fue en el año 1810?</p>
+        <p>Sí: <input type="radio" name="r2" value="SI"></p>
+        <p>No: <input type="radio" name="r2" value="NO"></p>
+
+        <p>3. The Doors fue un grupo de Rock Americano?</p>
+        <p>Sí: <input type="radio" name="r3" value="SI"></p>
+        <p>No: <input type="radio" name="r3" value="NO"></p>
+
+        <input type="submit" value="Verificar" class="form_submit">
+    </form>
+</body>
+</html>

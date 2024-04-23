@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intervalo y suma</title>
+</head>
+<style>
+    *{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+        background-color: rgb(252, 207, 215);
+    }
+    h1{
+    background-color: white;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 45px;
+    border: 2px solid pink;
+    max-width: 500px;
+    color: rgb(170, 106, 118);
+    }
+
+    .form{
+    background-color: white;;
+    margin: auto;
+    max-width: 400px;
+    padding: 16px;
+    border-radius: 45px;
+    border: 2px solid pink;
+    }
+    .input{
+        background-color: rgb(247, 213, 229);
+        border-radius: 4px;
+        border: none;
+        margin-top: 5px;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .submit{
+        background-image: linear-gradient(95deg,rgb(182, 145, 170), rgb(208, 123, 157)); 
+        border: none;
+        padding: 7px 16px;
+        border-radius: 13px;
+        margin-top: 15px;
+        color: aliceblue;
+        cursor: pointer;
+    }
+    
+</style>
+<body>
+    <center><h1>Sumar números 🐥</h1></center>
+    <!--Realizar un programa en Php que solicite 2 números (Inicio y fin), posteriormente mostrar los números
+comprendidos en el intervalo, posterior sumarlos-->
+    <form action="datos.php" method="post" class="form">
+        <center>
+            <p>Digite el número de inicio</p> <input type="number" name="numero1" required class="input">
+        <p>Digite el número de fin</p> <input type="number" name="numero2" required  class="input"> <br>
+        <input type="submit" value="Sumar" class="submit">
+        </center>
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body{
+    background-color:#002657;
+  }
+  header {
+    background-color: white;
+    border-bottom: 2px solid #ccc;
+    padding: 12px;
+  }
+  
+  .navb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /*Titulo */
+  .navb div {
+    font-size: 26px;
+    font-weight: bold;
+    color: #002657;
+    letter-spacing: 2px;
+    margin-right: 20px;
+    
+  }
+  
+  .navb div,
+  .navb_list {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navb_list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .list {
+    color: #002657;
+    font-size: 16px;
+    text-decoration: none;
+    border: 1px solid #002657;
+    border-radius: 20px;
+    padding: 8px 16px;
+    margin-right: 20px;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  .list:hover {
+    color: #fff;
+    background-color: #002657;
+    transform: scale(1.2); /* Aumenta el tamaño del background en un 20%*/
+    border-radius: 20px;
+    padding: 8px 16px;
+  }
+  /*Formulario*/
+  .form{
+    background-color: #ffffff;
+    margin: 100px;
+    margin-left: 250px;
+    width: 100%;
+    max-width: 700px;
+    padding: 60px 30px 60px 100px;
+    border-radius: 3px;
+  }
+  .form_submit{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid  #002657;
+    border-radius: 10px;
+    color: #002657;
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.2s ease-in-out;
+    margin-top: 14px;
+  }
+  .form_submit:hover{
+    color: #fff;
+    background-color: #002657;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  h1{
+    color: #002657;
+    margin-bottom: 10px;
+  }
